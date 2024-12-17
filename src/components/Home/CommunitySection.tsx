@@ -28,10 +28,10 @@ const CommunitySection: React.FC = () => {
       <Box
         sx={{
           position: "absolute",
-          top: "80px", // Push the background image down by 70px (adjust based on your Header height)
+          top: "80px",
           left: 0,
           width: "100%",
-          height: "60%", // You can adjust this height as needed
+          height: "60%",
           backgroundImage: `url(${qatarFlag})`,
           backgroundSize: "cover",
           backgroundPosition: "center",
@@ -60,7 +60,7 @@ const CommunitySection: React.FC = () => {
           color: "white",
           height: "100%",
           position: "relative",
-          px: { xs: 2, sm: 4 }, // Padding for mobile and larger screens
+          px: { xs: 2, sm: 4 },
         }}
       >
         {/* Urgent Call */}
@@ -113,7 +113,7 @@ const CommunitySection: React.FC = () => {
                 alignItems: "center",
                 gap: 1,
                 fontWeight: "bold",
-                fontSize: { xs: "1.2rem", sm: "1.6rem" }, // Responsive font size
+                fontSize: { xs: "1.2rem", sm: "1.6rem" },
               }}
             >
               Urgent consultation now!
@@ -152,15 +152,14 @@ const CommunitySection: React.FC = () => {
           </Button>
         </Box>
 
-        {/* Title and Subtitle (Moved under the urgent call section) */}
+        {/* Title and Subtitle */}
         <Box sx={{ mt: 26 }}>
           {" "}
-          {/* Added margin top for spacing */}
           <Typography
             variant="h3"
             fontWeight="bold"
             sx={{
-              fontSize: { xs: "1.8rem", sm: "2.5rem" }, // Responsive title size
+              fontSize: { xs: "1.8rem", sm: "2.5rem" },
               mb: 2,
             }}
           >
@@ -172,7 +171,7 @@ const CommunitySection: React.FC = () => {
               color: "rgba(255,255,255,0.7)",
               maxWidth: "600px",
               margin: "auto",
-              fontSize: { xs: "0.9rem", sm: "1rem" }, // Responsive subtitle size
+              fontSize: { xs: "0.9rem", sm: "1rem" },
             }}
           >
             Easy access to your legal advice. Choose, sort, and clearly define
@@ -198,7 +197,7 @@ const CommunitySection: React.FC = () => {
             <Grid
               item
               xs={12}
-              sm={3} // Adjust this based on your preference for screen sizes
+              sm={3}
               display="flex"
               justifyContent="space-between"
             >

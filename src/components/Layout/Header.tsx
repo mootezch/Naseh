@@ -72,7 +72,7 @@ const Header: React.FC = () => {
         {/* Navigation + Language Switcher + Profile Button */}
         <Box
           sx={{
-            display: { xs: "none", md: "flex" }, // Hide on small screens
+            display: { xs: "none", md: "flex" }, 
             alignItems: "center",
             gap: 3,
           }}

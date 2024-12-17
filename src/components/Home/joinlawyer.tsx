@@ -15,10 +15,10 @@ const JoinLawyer: React.FC = () => {
   return (
     <Box
       sx={{
-        minHeight: "50vh", // Maintain your height
-        position: "relative", // Use relative positioning to adjust placement
-        width: "131%", // Increase the width to extend it beyond the normal page width
-        left: "-16%", // Shift the box to the left
+        minHeight: "50vh", 
+        position: "relative", 
+        width: "131%", 
+        left: "-16%",
         backgroundColor: "rgba(0, 0, 68, 0.85)",
       }}
     >
@@ -286,7 +286,7 @@ const JoinLawyer: React.FC = () => {
             </Grid>
           </Grid>
 
-          {/* Button with + Icon */}
+          {/* Button  + Icon */}
           <Button
             variant="contained"
             sx={{

@@ -11,14 +11,14 @@ const Footer = () => {
       component="footer"
       sx={{
         backgroundColor: "#f9f9f9",
-        padding: "40px 80px", // Increased padding for left and right
+        padding: "40px 80px", 
         borderTop: "1px solid #e0e0e0",
-        position: "relative", // Relative positioning
-        width: "131%", // Full width of the container
-        marginLeft: "-12vw", // Extend to the left beyond the container
-        marginRight: "-10vw", // Extend to the right beyond the container
-        paddingLeft: "10vw", // Keep content aligned
-        paddingRight: "10vw", // Keep content aligned
+        position: "relative", 
+        width: "131%", 
+        marginLeft: "-12vw", 
+        marginRight: "-10vw", 
+        paddingLeft: "10vw", 
+        paddingRight: "10vw", 
       }}
     >
       <Grid container spacing={4} justifyContent="center">
@@ -139,7 +139,7 @@ const Footer = () => {
         sx={{
           display: "flex",
           alignItems: "center",
-          justifyContent: "space-between", // Space out content
+          justifyContent: "space-between", 
           marginTop: 4,
           borderTop: "1px solid #e0e0e0",
           paddingTop: 2,

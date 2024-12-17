@@ -10,7 +10,6 @@ import Footer from "../components/Layout/Footer";
 const HomePage: React.FC = () => {
   return (
     <Box>
-      {/* Community Section */}
       <CommunitySection />
       <Sections />
       <ServicesSection />
